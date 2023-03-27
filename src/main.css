@@ -46,8 +46,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: rgba(255, 255, 255, 0.5) 1px 1px,
-    rgba(100, 100, 100, 0.3) 3px 7px 3px;
+  color: #ffffff;
 }
 
 .header-title {
