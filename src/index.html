@@ -4,10 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="media.css" />
     <title>Trello</title>
   </head>
   <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header-title">
+          Hello! <br /><span>Keep up the good work!</span>
+        </h1>
+        <div class="header-clock"></div>
+      </header>
+      <div class="boards">
+        <div class="board-todo board-wripper">
+          <div class="board-todo-info info">
+            <h3 class="board-todo-title title">
+              New Task<span class="board-todo-count"></span>
+            </h3>
+            <button class="board-todo-add">
+              <img
+                src="/src/img/plus-outlined.svg"
+                alt="кнопка добавления задачи"
+              />
+            </button>
+          </div>
+          <div class="card">
+            <div class="board-todo-cards cards-wrap"></div>
+          </div>
+        </div>
+        <div class="board-progress board-wripper">
+          <div class="board-progress-info info">
+            <h3 class="board-todo-title title">
+              In progress<span class="board-todo-count"></span>
+            </h3>
+            <button class="board-todo-add">
+              <img
+                src="/src/img/plus-outlined.svg"
+                alt="кнопка добавления задачи"
+              />
+            </button>
+          </div>
+          <div class="card">
+            <div class="board-progress-cards cards-wrap"></div>
+          </div>
+        </div>
+        <div class="board-done board-wripper">
+          <div class="board-done-info info">
+            <h3 class="board-todo-title title">
+              Done<span class="board-todo-count"></span>
+            </h3>
+            <button class="board-done-delall">
+              <img src="/src/img/trash-can.svg" alt="кнопка удаления" />
+            </button>
+          </div>
+          <div class="card">
+            <div class="board-done-cards cards-wrap"></div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="script.js" type="module"></script>
   </body>
 </html>
