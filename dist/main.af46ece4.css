@@ -1,2 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 50px;
+}
+
+.container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  background: linear-gradient(91.75deg, #48409e -9.31%, #4332f7 130.93%);
+  animation: gradient 15s ease infinite;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  padding: 21px 50px;
+  display: flex;
+  border-radius: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-clock {
+  width: 20%;
+  height: 55px;
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.header-title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+}
+.header-title span {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.boards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.board-wripper {
+  max-width: 330px;
+  width: 100%;
+}
+.card {
+  max-width: 330px;
+  width: 100%;
+  min-height: 50vh;
+  background: #bfb9ff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 15px;
+}
+.info {
+  max-width: 330px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+.title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6f6f6f;
+}
+
 
 /*# sourceMappingURL=/main.af46ece4.css.map */
