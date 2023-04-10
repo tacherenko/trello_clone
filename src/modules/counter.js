@@ -1,9 +1,9 @@
 const todoCount = document.querySelector(".board-todo-count");
-todoCount.innerHTML = 0;
+todoCount.innerHTML = " (0)";
 const progressCount = document.querySelector(".board-progress-count");
-progressCount.innerHTML = 0;
+progressCount.innerHTML = " (0)";
 const doneCount = document.querySelector(".board-done-count");
-doneCount.innerHTML = 0;
+doneCount.innerHTML = " (0)";
 
 export function chengeCounters(keyLocal, elementHtml) {
   let count = 0;

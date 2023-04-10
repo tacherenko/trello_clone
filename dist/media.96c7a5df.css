@@ -1,2 +1,98 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 1024px;
+  }
+  .boards {
+    gap: 10px;
+  }
+  .board-wripper {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .container {
+    width: 900px;
+  }
+  .board-wripper {
+    max-width: 280px;
+    width: 100%;
+  }
+  .modalTask {
+    max-width: 550px;
+    padding: 0 25px;
+  }
+  .modalTaskDescription {
+    width: 452px;
+    height: 180px;
+  }
+  .modalSelect {
+    width: 220px;
+    height: 55px;
+  }
+  .modalTaskCancel,
+  .modalTaskConfirm {
+    width: 90px;
+    height: 54px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    width: 400px;
+  }
+  .boards {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .board-wripper {
+    max-width: 370px;
+    width: 100%;
+  }
+  .card {
+    margin: 10px 20px;
+  }
+  .info {
+    margin: 10px 20px;
+  }
+  .header {
+    padding: 20px;
+  }
+  .header-title {
+    font-size: 28px;
+    line-height: 31px;
+  }
+  .header-clock {
+    height: 47px;
+    font-size: 26px;
+  }
+  .modalTask {
+    max-width: 370px;
+    min-height: 500px;
+    padding: 0 25px;
+    margin: auto;
+  }
+  .modalTaskDescription {
+    max-width: 318px;
+  }
+  .modalbtns {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .modalSelect {
+    width: 300px;
+    height: 55px;
+  }
+  .modalTaskCancel,
+  .modalTaskConfirm {
+    width: 300px;
+    height: 55px;
+    font-size: 16px;
+  }
+}
+
 
 /*# sourceMappingURL=/media.96c7a5df.css.map */
