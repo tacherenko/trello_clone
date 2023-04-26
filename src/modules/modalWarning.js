@@ -12,7 +12,7 @@ export function openModalWarning(foo, a, b) {
 
   const modalWarning = document.createElement("div");
   modalWarning.classList.add("modalWarning");
-  modalWarning.innerHTML = "Warning! <br>You need to do some task";
+  modalWarning.innerHTML = "Warning! <br>You need to do at least some tasks";
 
   const btnAllWarning = document.createElement("div");
   btnAllWarning.classList.add("btnAllWarning");
